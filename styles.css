@@ -40,10 +40,11 @@ header {
     grid-area: sidebar;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
     padding-left: 30px;
     padding-top: 20px;
     background-color: rgb(78, 166, 220);
+    /* background-color: rgb(23, 50, 66); */
     color: white;
 }
 
@@ -52,17 +53,35 @@ header {
     letter-spacing: 1px;
 }
 
+.sidebar-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.material-icons {
+    font-size: 40px;
+}
+
 .sidebar li {
     list-style: none;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
 }
 
 .sidebar a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
     color: white;
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 0.8px;
+    padding-left: 5px;
+}
+
+.nav-icon {
+    font-size: 25px;
 }
 
 .main-content {
