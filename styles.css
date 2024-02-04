@@ -7,9 +7,13 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
+    grid-template-areas: 
+        "sidebar header"
+        "sidebar main-content";
 }
 
 header {
+    grid-area: header;
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
@@ -27,10 +31,11 @@ header {
 }
 
 .sidebar {
-    grid-row: 1 / 3;
+    grid-area: sidebar;
 }
 
 .main-content {
+    grid-area: main-content;
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
