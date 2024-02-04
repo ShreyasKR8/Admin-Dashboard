@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -32,6 +38,31 @@ header {
 
 .sidebar {
     grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: rgb(78, 166, 220);
+    color: white;
+}
+
+.sidebar h3 {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+.sidebar li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
 }
 
 .main-content {
