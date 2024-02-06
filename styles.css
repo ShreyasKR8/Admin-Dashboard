@@ -107,6 +107,27 @@ header {
     font-weight: 700;
 }
 
+.action-buttons-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-buttons-container button {
+    border: none;
+    width: 100px;
+    padding: 10px 0 10px 0;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(78, 166, 220);
+    border-radius: 24px;
+    height: 40px;
+}
+
+.action-buttons-container button:hover {
+    background-color: rgb(15, 123, 189);
+}
+
 .sidebar {
     grid-area: sidebar;
     display: flex;
