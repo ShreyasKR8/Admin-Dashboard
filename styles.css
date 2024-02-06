@@ -27,6 +27,7 @@ header {
         "search-bar account"
         "greeting buttons";
     padding: 24px 50px;
+    row-gap: 25px;
 }
 
 .search-bar {
@@ -56,6 +57,7 @@ header {
 
 .profile-img-1 {
     margin-left: 10px;
+    padding-top: 2px;
 }
 
 .profile-img-1 > img{
