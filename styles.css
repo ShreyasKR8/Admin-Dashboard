@@ -61,7 +61,7 @@ header {
 }
 
 .profile-img-1 > img{
-    border-radius: 24px;
+    border-radius: 50%;
 }
 
 .account > p {
