@@ -76,9 +76,10 @@ header {
     cursor: pointer;
 }
 
-.search,
-.bell {
+.search-icon,
+.bell-icon {
     font-size: 28px;
+    padding-top: 4px;
 }
 
 .greeting {
