@@ -206,7 +206,9 @@ header {
     padding: 30px;
 }
 
-.announcement-cards {
+.announcement-cards
+,.trending-cards 
+{
     display: flex;
     flex-direction: column;
     margin: 15px 50px 0 20px;
@@ -216,11 +218,43 @@ header {
     2px -2px 2px rgb(198, 197, 197);
 }
 
-.announcement-cards > div {
-    margin: 20px 0;
+.announcement-cards div {
+    padding: 20px 0;
 }
 
-.trending-cards {
-    display: flex;
-    flex-direction: column;
+.announcement-cards div p {
+    font-size: 14px;
+    color: grey;
+    margin-top: 3px;
+}
+
+.announcement-cards div:nth-child(1),
+.announcement-cards div:nth-child(2) {
+    border-bottom: 2px solid rgb(175, 174, 174);
+}
+
+.trending-cards div {
+    margin-bottom: 20px;
+}
+
+.trending-cards div:first-of-type {
+    margin-top: 10px;
+}
+
+.trending-cards div:last-of-type {
+    margin-bottom: 10px;
+}
+
+.trending-cards div img {
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.trending-profile-id {
+    font-size: 17px;
+}
+
+.trending-project-name {
+    color: grey;
 }
