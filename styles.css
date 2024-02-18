@@ -203,7 +203,7 @@ header {
     border-radius: 7px;
     width: 90%;
     margin-bottom: 30px;
-    padding: 30px;
+    padding: 30px 30px;
 }
 
 .project-name {
@@ -213,6 +213,23 @@ header {
 
 .project-name + p {
     color: rgb(97, 97, 97);
+}
+
+.utility-buttons {
+    display: flex;
+    gap: 15px;
+    float: right;
+    margin-top: 30px;
+}
+
+.card button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.card-icon {
+    width: 22px;
 }
 
 .announcement-cards
