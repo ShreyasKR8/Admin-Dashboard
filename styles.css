@@ -16,6 +16,8 @@ body {
     grid-template-areas: 
         "sidebar header"
         "sidebar main-content";
+    height: 100vh;
+    overflow: hidden;
 }
 
 header {
@@ -181,6 +183,7 @@ header {
     display: grid;
     grid-template-columns: 2fr 0.9fr;
     grid-template-rows: auto auto;
+    overflow-y: auto;
 }
 
 .main-content-projects {
@@ -211,7 +214,7 @@ header {
     font-weight: 700;
 }
 
-.project-name + p {
+.project-info {
     color: rgb(97, 97, 97);
 }
 
