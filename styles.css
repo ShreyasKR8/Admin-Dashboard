@@ -203,10 +203,26 @@ header {
 .card {
     box-shadow: -2px 2px 2px rgb(198, 197, 197),
     2px -2px 2px rgb(198, 197, 197);
-    border-radius: 7px;
+    border-radius: 10px;
     width: 90%;
     margin-bottom: 30px;
     padding: 30px 30px;
+    position: relative;
+}
+
+.side-tape {
+    position: absolute;
+    width: 2%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 10px 0px 0px 10px;
+    background-color: rgb(255, 176, 30);
+    transition: 0.25s width ease;
+}
+
+.card:hover .side-tape{
+    width: 4%;
 }
 
 .project-name {
