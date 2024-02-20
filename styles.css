@@ -228,9 +228,17 @@ header {
 .project-name {
     font-size: 16px;
     font-weight: 700;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.project-name:hover {
+    color: rgb(15, 123, 189);
 }
 
 .project-info {
+    margin-top: 5px;
     color: rgb(97, 97, 97);
 }
 
