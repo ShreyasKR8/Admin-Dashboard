@@ -16,9 +16,3 @@ This project is a part of The Odin Project course, focusing on creating a dashbo
 - CSS
 - JavaScript
 
-## Setup Instructions
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/interactive-dashboard.git
-
